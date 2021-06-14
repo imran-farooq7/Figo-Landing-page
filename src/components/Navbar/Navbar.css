@@ -1,0 +1,17 @@
+.navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  color: #8d8d8d;
+}
+.active {
+  font-weight: 600;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: transparent !important;
+}
+.navbar-nav .nav-item .nav-link > img {
+  vertical-align: sub;
+}
