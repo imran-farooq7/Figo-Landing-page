@@ -1,0 +1,16 @@
+p.welcome_heading {
+  color: #febd00;
+  font-size: 28px;
+}
+h2.welcome_heading2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+p.welcome_p {
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 502px;
+}
+section.welcome {
+  padding: 50px 0px;
+}

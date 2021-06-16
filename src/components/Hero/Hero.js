@@ -1,10 +1,13 @@
 import React from "react";
 import "./Hero.css";
 import Chef from "../../assets/165.png";
+import Button from "../UI/Button/Button";
+import Navbar from "../Navbar/Navbar";
 
 const Hero = () => {
   return (
     <section className="hero">
+      <Navbar />
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6">
@@ -21,6 +24,7 @@ const Hero = () => {
                 placeholder="Enter your address"
                 className="hero_main_input"
               />
+              <Button title="Get Started"></Button>
             </div>
           </div>
           <div className="col-md-6 text-center">
