@@ -1,0 +1,37 @@
+section.why {
+  padding: 50px 0;
+}
+p.why_heading {
+  text-align: center;
+  font-size: 28px;
+  color: #ffb243;
+}
+h2.why_heading_2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.why_card {
+  border: none;
+  border-radius: 10px;
+  background: #f8fbf5;
+  padding: 15px;
+  text-align: center;
+}
+p.why_card_head {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 600;
+}
+p.why_card_main {
+  max-width: 283px;
+  margin: auto;
+}
+.why_card:hover {
+  border-radius: 10px 10px 5px 5px;
+  background: white;
+  transform: scaleY(1.1);
+  box-shadow: 0 2px 1px black;
+  transition: 0.5s ease;
+}
